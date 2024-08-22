@@ -818,6 +818,7 @@ static const char *snet_prop_key[] = {
     "vendor.boot.verifiedbootstate",
     "ro.vendor_dlkm.build.type",
     "sys.oem_unlock_allowed",
+    "ro.crypto.state",
 	NULL
 };
 
@@ -848,6 +849,7 @@ static const char *snet_prop_value[] = {
     "green", // vendor.boot.verifiedbootstate
     "user", // ro.vendor_dlkm.build.type
     "0", // sys.oem_unlock_allowed
+    "encrypted", // ro.crypto.state
 	NULL
 };
 
